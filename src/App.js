@@ -37,7 +37,7 @@ const App = () => {
                value={search}
                onChange={updateSearch}
                type="text"/>
-        <button className='search-button'>test</button>
+        <button className='search-button'>Search</button>
         {recipes.map(recipe => (
           <Recipe key={recipe.recipe.label}
                   title={recipe.recipe.label}
