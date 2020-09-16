@@ -1,6 +1,7 @@
 .App {
-min-height: 100vh;
-background-color: #CFC7D2;
+  min-height: 100vh;
+  background-color: #CFC7D2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .search-form {
@@ -65,6 +66,7 @@ background-color: #CFC7D2;
   box-shadow: 0px 2px 6px 0px #bea8aa9e;
   border-radius: 5px;
   transition: box-shadow  0.2s;
+  letter-spacing: .05rem;
 }
 
 .content:hover {
